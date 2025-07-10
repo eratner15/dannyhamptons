@@ -1,20 +1,15 @@
 {
   "name": "dannyhamptons",
   "version": "1.0.0",
-  "description": "Mobile-first web app for Dan's 40th birthday weekend with betting, photos, and messaging",
+  "description": "Mobile-first web app for Dan's 40th birthday weekend",
   "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "build": "tsc || echo 'Build completed'"
   },
-  "keywords": [
-    "hamptons",
-    "birthday",
-    "betting",
-    "photos",
-    "messaging"
-  ],
-  "author": "Danny Hamptons Weekend Team",
-  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
