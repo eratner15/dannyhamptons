@@ -4,12 +4,7 @@
   "description": "Mobile-first web app for Dan's 40th birthday weekend with betting, photos, and messaging",
   "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/server.js",
-    "dev": "nodemon src/server.ts",
-    "build": "tsc",
-    "railway:build": "npm install && npm run build",
-    "railway:start": "node dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/server.js"
   },
   "keywords": [
     "hamptons",
@@ -30,16 +25,5 @@
     "multer": "^2.0.1",
     "nodemailer": "^7.0.5",
     "socket.io": "^4.8.1"
-  },
-  "devDependencies": {
-    "@types/bcryptjs": "^3.0.0",
-    "@types/express": "^5.0.3",
-    "@types/jsonwebtoken": "^9.0.10",
-    "@types/multer": "^2.0.0",
-    "@types/node": "^24.0.12",
-    "@types/nodemailer": "^6.4.17",
-    "nodemon": "^3.1.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
   }
 }
