@@ -1,0 +1,5 @@
+[build]
+command = "npm install --production"
+
+[deploy]
+startCommand = "npm start"
